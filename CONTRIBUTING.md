@@ -54,6 +54,42 @@ Here are some features we'd love to see implemented:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 🗂 Project Structure
+
+- /components – Reusable UI components
+- /pages or /app – Application routes
+- /data – AI tools data
+- /utils – Helper functions
+- /styles – Global styles
+
+## ➕ How to Add a New AI Tool
+
+1. Navigate to the `/data/tools` directory
+2. Add a new object following the existing schema
+3. Include:
+   - name
+   - description
+   - category
+   - website URL
+   - tags
+4. Run the project and verify it appears correctly
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file and add:
+
+NEXT_PUBLIC_SUPABASE_URL=your_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+
+## 🎯 Good First Issues
+
+- UI spacing & responsiveness fixes
+- Adding missing tool descriptions
+- Improving search UX
+- Documentation improvements
+- Accessibility enhancements
+
+
 ## 💻 Development Setup
 
 ```bash
